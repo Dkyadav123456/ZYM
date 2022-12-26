@@ -1,0 +1,19 @@
+#navbarNav{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    /* color: white; */
+    
+}
+#logo{
+    width: 50px;
+    background-color: none;
+    border-radius: 50px;
+
+}
+#container{
+    background-color: none;
+}
+#navbarNav{
+    font-size: 30px;
+}
