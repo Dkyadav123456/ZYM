@@ -1,19 +1,18 @@
-#navbarNav{
+.navBar{
     display: flex;
+    /* justify-content: space-around; */
     justify-content: right;
-    margin-right: 20px;
-    /* color: white; */
-    
+    box-shadow: 1px 1px 1px #dee0de;
 }
-#logo{
-    width: 50px;
-    background-color: none;
-    border-radius: 50px;
-
+ul{
+    display: flex;
 }
-#container{
-    background-color: none;
+li{
+    list-style: none;
+    padding: 1px 15px;
 }
-#navbarNav{
-    font-size: 30px;
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
 }
