@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background: url('../Images/zymbg.jpg');
+    /* background-color: aqua; */
+}
+.imageContainer{
+    background-repeat: no-repeat;
+
+}
+.btn1{
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 20px;
+}
+
+
