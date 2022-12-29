@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section className="about container" id="about">
       <div className="about-wrapper">
-        <img className="about-image" src={abimg} alt="" />
+        <img className="about-image" src="https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" alt="" />
         <div className="about-data">
           <h3 className="about-title">STORY ABOUT US</h3>
           <p className="about-description">

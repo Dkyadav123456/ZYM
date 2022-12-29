@@ -38,3 +38,8 @@
     color: #fff;
     font-weight: 700;
   }
+
+.about-image{
+  padding: 0 0 0 110px;
+  position: relative;
+}

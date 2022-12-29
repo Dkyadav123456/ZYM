@@ -6,10 +6,14 @@ import About from "./Components/About";
 import Pricing from "./Components/Pricing";
 import Program from "./Components/Program";
 import React from "react";
+import Footer from "./Components/Footer";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function App() {
   return (
-    <BrowserRouter>
+
+    <>
+<BrowserRouter>
       <div className="App">
         <NavBar />
         <Routes>
@@ -18,9 +22,21 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/pricing" element={<Pricing />}></Route>
           <Route path="/program" element={<Program />}></Route>
+        
         </Routes>
       </div>
     </BrowserRouter>
+    
+
+   
+
+
+
+
+
+
+    </>
+    
   );
 }
 

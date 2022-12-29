@@ -1,26 +1,38 @@
 import React from "react";
 import '../CSS/NavBar.css'
-import {Link} from 'react-router-dom'
+import { HashLink as Link } from "react-router-hash-link";
+// import { Link } from 'react-router-dom'
 import logo from '../Images/logo3.jpg'
 export default function NavBar() {
   return (
     <>
 
-<div class="topnav" id="myTopnav">
 
-  <Link className="active" aria-current="page" exact to={'/'}>Home</Link>
-  <Link className="active" aria-current="page" exact to={'/about'}>About</Link>
-  <Link className="active" aria-current="page" exact to={'/program'}>Program</Link>
-  <Link className="active" aria-current="page" exact to={'/pricing'}>Pricing</Link>
+      <div class="nav">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header">
+          <div class="nav-title">
+            <Link smooth to="#home"> <img src="04012019-25.jpg" className="logo" /></Link>
 
-  {/* <i class="fa fa-bars"></i> */}
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
 
-<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+        <div class="nav-links">
+          <Link className="active" aria-current="page" smooth to="#home">Home</Link>
+          <Link className="active" aria-current="page"  smooth to="#about">About</Link>
+          <Link className="active" aria-current="page"  smooth to="#program">Program</Link>
+          <Link className="active" aria-current="page" smooth to="#pricing">Pricing</Link>
+          
+        </div>
+      </div>
 
-
-</div>
 
     </>
   );
