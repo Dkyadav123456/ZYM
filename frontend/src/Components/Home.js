@@ -1,16 +1,15 @@
 import React from 'react'
 import '../CSS/Home.css'
-import logo from '../Images/zymbg.jpg'
+//import logo from '../Images/zymbg.jpg'
 export default function Home() {
   return (
-    <div className='container'>
-      <div className='imageContainer'>
-        <img src={logo} alt='logo'/>
-        <div className='btn1'>
-          <button>Subscribe</button>
-        </div>
-      </div>
-      
-    </div>
+    <section class="hero">
+        <h1 class="hero-title">
+          THE BEST FITNESS STUDIO <br />
+          IN THE CITY
+        </h1>
+
+        <a href="/program" class="hero-btn-get-started">GET STARTED</a>
+      </section>
   )
 }

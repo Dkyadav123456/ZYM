@@ -1,0 +1,68 @@
+.membership-card {
+    border: 1px solid #e0e0e1;
+    padding: 2rem 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: conter;
+  }
+  
+  .membership-card.active {
+    border: 1px solid var(--first-color);
+  }
+  
+  .membership-card.active .membership-btn {
+    background-color: var(--first-color);
+    color: #fff;
+  }
+  
+  .membership-plan {
+    color: var(--first-color);
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+  
+  .membership-title {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  
+  .membership-description {
+    margin-top: -10px;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .membership-feature {
+    text-align: initial;
+    margin-bottom: 2.5rem;
+  }
+  
+  .membership-list {
+    display: flex;
+    align-items: center;
+    column-gap: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .membership-checklist {
+    color: var(--first-color);
+  }
+  
+  .membership-btn {
+    border: 1px solid var(--first-color);
+    padding: 0.5rem 0;
+    color: var(--first-color);
+    width: 100%;
+    display: block;
+    transition: 0.6s;
+    font-weight: 600;
+    margin-top: auto;
+  }
+  
+  .membership-btn:hover {
+    background-color: var(--first-color);
+    color: #fff;
+  }

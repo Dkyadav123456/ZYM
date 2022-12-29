@@ -1,0 +1,40 @@
+.about {
+    margin-top: 112px;
+    margin-bottom: 150px;
+  }
+  
+  .about-wrapper {
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+  }
+  
+  .about-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+  }
+  
+  .about-description {
+    margin-bottom: 2rem;
+    color: var(--text-color-light);
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+  
+  .about-btn {
+    background-color: #2eb9f2;
+    padding: 0.8rem 1.2rem;
+    border-radius: 2rem;
+    color: #fff;
+    font-weight: 700;
+  }

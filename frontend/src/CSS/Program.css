@@ -1,0 +1,31 @@
+.program-card {
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #f4f4f4;
+    padding: 2.5rem 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .program-card-image {
+    width: 84px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  .join-btn{
+    border: 1px solid var(--first-color);
+    padding: 0.5rem 0;
+    color: var(--first-color);
+    width: 100%;
+    display: block;
+    transition: 0.6s;
+    font-weight: 600;
+    margin-top: auto;
+  }
+  .section-title{
+    align-items: center;
+    text-align: center;
+  }
+  .section-subtitle{
+    align-items: center;
+     text-align: center; 
+  }

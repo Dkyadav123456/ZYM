@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Pricing from "./Components/Pricing";
 import Program from "./Components/Program";
+import React from "react";
 
 function App() {
   return (

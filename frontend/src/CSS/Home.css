@@ -1,17 +1,28 @@
-.container{
-    display: flex;
-    justify-content: center;
-    background: url('../Images/zymbg.jpg');
-    /* background-color: aqua; */
-}
-.imageContainer{
+.hero {
+    background-image: url('../Images/zymbg.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
     background-repeat: no-repeat;
-
-}
-.btn1{
-    border: 1px solid black;
-    width: 100px;
-    border-radius: 20px;
-}
-
-
+    /* background-position: 0 -400px; */
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    text-align: center;
+  }
+  
+  .hero-title {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .hero-btn-get-started {
+    background-color: #2eb9f2;
+    padding: 0.8rem 1.2rem;
+    border-radius: 2rem;
+    color: #fff;
+    font-weight: 700;
+  }
