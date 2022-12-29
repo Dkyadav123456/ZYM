@@ -5,48 +5,23 @@ import logo from '../Images/logo3.jpg'
 export default function NavBar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid">
-          <Link className="navbar-brand" to={"/"}>
-            <img id="zymLogo" src={logo} alt='ZYM logo'/>
-          </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="/navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-          <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" exact to={'/'}>
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to={"/about"}>
-                  About
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to={"/program"}>
-                  Program
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to={"/pricing"}>
-                  Pricing
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+
+<div class="topnav" id="myTopnav">
+
+  <Link className="active" aria-current="page" exact to={'/'}>Home</Link>
+  <Link className="active" aria-current="page" exact to={'/about'}>About</Link>
+  <Link className="active" aria-current="page" exact to={'/program'}>Program</Link>
+  <Link className="active" aria-current="page" exact to={'/pricing'}>Pricing</Link>
+
+  {/* <i class="fa fa-bars"></i> */}
+
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+
+</div>
+
     </>
   );
 }
